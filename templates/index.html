@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>State of Virginia - Municipality Status</title>
+    <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/style.css") }}'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.js'></script>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/jumbotron.css") }}'>
+
+    <script type='text/javascript' src='{{ url_for("static", filename="js/app.js") }}' ></script>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1 class="display-4">State of Virginia</h1>
+      <h2 class="display-4">Municipality Status</h2>
+      <p class="lead">This is a sample landing page which shows a table that has been built from the VA COVID json.</p>
+      I can work on the design later on, but this is to give you an idea.
+
+      <a class="btn btn-primary btn-lg" href="/api/data/municipality-decision-report" role="button">View the API Endpoint</a>
+    </div>
+
+    <h3 class="display-3">All Data</h3>
+    These records are pulled from the API through the database.<p/>
+    This is basic formatting. We can chat briefly about an ideal design. I just wanted to get this working.
+    <p/>
+    <strong>Select a municipality:</strong>
+    <select id="municipality_list" onchange="filterDataFunction()"></select>
+
+    <div class="table-responsive" id="dataTable">
+
+    </div>
+  </body>
+</html>
