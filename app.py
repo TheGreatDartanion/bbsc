@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # ## Import Dependencies
-# 
+#
 # Dependencies are libraries that help extend the functionality of core Python.
 
 # In[1]:
@@ -21,7 +21,7 @@ pymysql.install_as_MySQLdb()
 
 
 # ## Import config variables
-# 
+#
 # The `is_heroku` variable checks to see if this code has been deployed to Heroku. If not, then read in the credentials from the `config.py` file.
 
 # In[2]:
@@ -43,9 +43,9 @@ else:
 
 
 # ## Instantiate Flask
-# 
-# Flask is the framework that helps serve up your site via the web. 
-# 
+#
+# Flask is the framework that helps serve up your site via the web.
+#
 # There is a bunch of documentation on it, but you can start here: https://flask.palletsprojects.com/en/1.1.x/
 
 # In[3]:
@@ -55,7 +55,7 @@ app = Flask(__name__)
 
 
 # ## Create Database Connection
-# 
+#
 # This uses the config variables that were created earlier.
 
 # In[4]:
@@ -65,11 +65,11 @@ engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_hos
 
 
 # ## Create a Default Route
-# 
+#
 # The default route is defined at the root level. You will get this endpoint when you pull up your site by default.
-# 
+#
 # For example, on the localhost, you will get this route if you enter `http://localhost:5000'`
-# 
+#
 # Port `5000` is the default port for Flask.
 
 # In[5]:
@@ -87,7 +87,7 @@ def index():
 
 
 # ## Create a Route for the data
-# 
+#
 # This one is named `api/data/ksa`. The idea here is to indicate that data will be served up through an API. Technically, routes can be named whatever you'd like.
 
 # In[6]:
@@ -99,22 +99,23 @@ def get_data():
     conn = engine.connect()
 
     # query and load it into your DataFrame
-    data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
-    
+    data_df = pd.read_sql('SELECT * FROM VA_Report_Summary ORDER BY Municipality_Type,Municipality_Name,Service_Category,Service', conn)
+
     try:
         data_df.rename(columns={
-                'Municipality_Type': 'Municipality Type',
-                'Municipality_Name': 'Municipality Name',
+                'Municipality_Type': 'Locality Type',
+                'Municipality_Name': 'Locality Name',
                 'Service_Category':'Service Category',
-                'Commonwealth_Decision':'Commonwealth Decision',
-                'Municipality_Decision':'Municipality Decision',
+                'Municipality_Decision':'Locality Decision',
         }, inplace=True)
     except Exception as e:
         print(e)
         pass
-    
+
     # convert your DataFrame into `json`
     data_json = data_df.to_json(orient='records')
+
+    conn.close()
 
     # return the json to the client
     return(data_json)
@@ -129,16 +130,34 @@ def get_municipalities():
     conn = engine.connect()
 
     # query and load it into your DataFrame
-    data_df = pd.read_sql('SELECT DISTINCT Municipality_Name FROM Municipality', conn)
-        
+    data_df = pd.read_sql('SELECT DISTINCT Municipality_Name FROM Municipality ORDER BY Municipality_Name', conn)
+
     municipalities_list = data_df['Municipality_Name'].to_list()
+
+    conn.close()
 
     # return the list to the client
     return(jsonify(municipalities_list))
 
 
+@app.route('/api/data/service_list')
+def get_service_list():
+    # establish a connection to your database
+    conn = engine.connect()
+
+    # query and load it into your DataFrame
+    data_df = pd.read_sql('SELECT DISTINCT Service from Service ORDER BY Service', conn)
+
+    service_list = data_df['Service'].to_list()
+
+    conn.close()
+
+    # return the list to the client
+    return(jsonify(service_list))
+
+
 # ## Run the App
-# 
+#
 # This one is named `api/data/municipality-decision-report`. The idea here is to indicate that data will be served up through an API. Technically, routes can be named whatever you'd like.
 
 # In[ ]:
@@ -146,4 +165,3 @@ def get_municipalities():
 
 if __name__ == '__main__':
     app.run()
-

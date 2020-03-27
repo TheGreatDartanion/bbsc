@@ -1,4 +1,6 @@
 var globalData;
+var filteredData;
+var filtered = false;
 
 function generateTable(data) {
 
@@ -42,19 +44,75 @@ function generateTable(data) {
 
 function filterDataFunction() {
 
+  document.getElementById("service_list").value = '(All)';
+
   opt = document.getElementById("municipality_list").value;
 
   //console.log(opt);
 
   function filterData(globalData) {
-    return globalData["Municipality Name"] == opt;
+    return globalData["Locality Name"] == opt;
   }
 
   filteredData = globalData.filter(filterData);
 
   document.getElementById("generatedTable").remove();
   table = initTable();
-  generateTable(filteredData);
+
+  if(opt != '(All)')
+  {
+    generateTable(filteredData);
+  }
+  else
+  {
+    generateTable(globalData);
+  }
+
+  filtered = true;
+
+}
+
+
+function filterDataFunctionService() {
+
+  document.getElementById("municipality_list").value = '(All)';
+
+  opt = document.getElementById("service_list").value;
+
+  console.log(opt);
+
+  function filterData(data) {
+    return data["Service"] == opt;
+  }
+
+  filteredData = globalData.filter(filterData);
+
+/*
+  if(filtered)
+  {
+    filteredData = filteredData.filter(filterData);
+    console.log(filteredData);
+  }
+  else
+  {
+    filteredData = globalData.filter(filterData);
+    console.log('not filtered');
+  }
+*/
+
+  document.getElementById("generatedTable").remove();
+  table = initTable();
+
+
+  if(opt != '(All)')
+  {
+    generateTable(filteredData);
+  }
+  else
+  {
+    generateTable(globalData);
+  }
+
 
 }
 
@@ -76,6 +134,31 @@ d3.json('/api/data/municipalities').then(function(data){
   var select = document.getElementById("municipality_list");
   var options = data;
 
+  // ALl Option
+  var el = document.createElement("option");
+  el.textContent = '(All)';
+  el.value = '(All)';
+  select.appendChild(el);
+
+  options.forEach(function(i){
+    var opt = i;
+    var el = document.createElement("option");
+    el.textContent = opt;
+    el.value = opt;
+    select.appendChild(el);
+  });
+
+});
+
+d3.json('/api/data/service_list').then(function(data){
+  var select = document.getElementById("service_list");
+  var options = data;
+
+  // ALl Option
+  var el = document.createElement("option");
+  el.textContent = '(All)';
+  el.value = '(All)';
+  select.appendChild(el);
 
   options.forEach(function(i){
     var opt = i;

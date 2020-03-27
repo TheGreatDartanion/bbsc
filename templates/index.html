@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>State of Virginia - Municipality Status</title>
+    <title>Virginia Localities and the COVID-19 Response</title>
     <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/style.css") }}'>
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.js'></script>
 
@@ -16,24 +16,49 @@
   </head>
 
   <body>
-    <div class="jumbotron">
-      <h1 class="display-4">State of Virginia</h1>
-      <h2 class="display-4">Municipality Status</h2>
-      <p class="lead">This is a sample landing page which shows a table that has been built from the VA COVID json.</p>
-      I can work on the design later on, but this is to give you an idea.</p>
+    <div class="jumbotron" style="background-color:#333333; color: #FFFFFF;">
+      <img src="https://static.wixstatic.com/media/81d7ca_fe17d5272d534af6bcbfbc072e20e357.png" width="220" height="91">
 
-      <a class="btn btn-primary btn-lg" href="/api/data/municipality-decision-report" role="button">View the API Endpoint</a>
+      <img style="float: right; text-align: right;" src="https://secureservercdn.net/198.71.233.21/5d9.433.myftpupload.com/wp-content/uploads/2018/05/cropped-birchbark-logo-reverse-1.png" width="333" height="91">
+
+
+      <h1 class="display-4">Virginia Localities</h1>
+      <h2 class="display-4">COVID-19 Response</h2>
+      <p class="lead">
+
+      <h4>For Developers</h4>
+      Developers may access our curated data via our <a target='_blank' href="/api/data/municipality-decision-report">API endpoint</a>.
+      <!--<a class="btn btn-primary btn-lg" href="" role="button">Access our API Endpoint</a>-->
+
     </div>
 
-    <h3 class="display-3">All Data</h3>
-    These records are pulled from the API through the database.<p/>
-    This is basic formatting. We can chat briefly about an ideal design. I just wanted to get this working.
+    <h3 class="display-3"><b>Virginia Localities and the COVID-19 Response</b></h3>
+    <div style="width:80%">
+
+    Virginia localities are responding to COVID-19 for citizens, businesses, and employees. <br/><br/>
+
+    We have teamed up with <a href="http://birchbarkstrategies.com/" target="_blank">BIRCHbark Strategic Consulting</a> to bring you a resource tool to better understand what policy measures are being taken at the local level.<br/><br/>
+
+    When working for local government, common question our local managers would ask when thinking about something new was <strong>"what are other localities doing?"</strong><br/><br/>
+
+    This page provides available local government data in one spot. Local government actions are evolving and we will update frequently.<br/><br/>
+    </div>
+
     <p/>
-    <strong>Select a municipality:</strong>
+
+    <h4><b>Select a locality or service:</b></h4>
+
+    <strong>Select a locality:</strong>
     <select id="municipality_list" onchange="filterDataFunction()"></select>
+
+    <br/><br/>
+
+    <strong>Select a service:</strong>
+    <select id="service_list" onchange="filterDataFunctionService()"></select>
 
     <div class="table-responsive" id="dataTable">
 
     </div>
+
   </body>
 </html>
