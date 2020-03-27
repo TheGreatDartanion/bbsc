@@ -122,6 +122,7 @@ function initTable()
   var table = document.createElement("table");
   table.classList.add('table');
   table.classList.add('table-striped');
+  table.classList.add('table-dark');
   table.classList.add('table-bordered');
   table.classList.add('table-hover');
   table.classList.add('table-responsive');
