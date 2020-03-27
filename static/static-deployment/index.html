@@ -15,9 +15,9 @@
 
   <body>
     <div class="jumbotron" style="background-color:#333333; color: #FFFFFF;">
-      <img src="https://static.wixstatic.com/media/81d7ca_fe17d5272d534af6bcbfbc072e20e357.png" width="220" height="91">
+      <img src="{{ url_for("static", filename="images/berkeley-group.png") }}" width="220" height="91">
 
-      <img style="float: right; text-align: right;" src="https://secureservercdn.net/198.71.233.21/5d9.433.myftpupload.com/wp-content/uploads/2018/05/cropped-birchbark-logo-reverse-1.png" width="333" height="91">
+      <img style="float: right; text-align: right;" src="{{ url_for("static", filename="images/bbsc.png") }}" width="333" height="91">
 
 
       <h1 class="display-4">Virginia Localities</h1>
@@ -26,7 +26,8 @@
 
       <h4>For Developers</h4>
       Developers may access our curated data via our <a target='_blank' href="https://bbsc-va.herokuapp.com/api/data/municipality-decision-report">API endpoint</a>.
-      <!--<a class="btn btn-primary btn-lg" href="" role="button">Access our API Endpoint</a>-->
+      <!--<a class="btn btn-primary btn-lg" href="" role="button">Access our API Endpoint</a>--><p>
+      <em>Data last updated: Wednesday, March 25th at noon</em>
 
     </div>
 
