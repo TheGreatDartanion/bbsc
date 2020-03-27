@@ -153,7 +153,6 @@ d3.json('/api/data/municipalities').then(function(data){
 
 });
 
-
 d3.json('/api/data/service_list').then(function(data){
   console.log('SL');
   var select = document.getElementById("service_list");
