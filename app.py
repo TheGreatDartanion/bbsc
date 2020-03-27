@@ -116,6 +116,9 @@ def get_data():
                 'Municipality_Decision':'Locality Decision',
         }, inplace=True)
 
+        data_df['Population'] = data_df['Population'].apply(lambda pop : "{:,}".format(pop))
+
+        data_df['Source'] = data_df['Source'].apply(lambda src : '<a href="{0}">{0}</a>'.format(src))
 
     except Exception as e:
         print(e)
