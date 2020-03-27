@@ -16,7 +16,7 @@ import os
 
 from flask import Flask, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS, cross_origin
+#from flask_cors import CORS, cross_origin
 
 
 pymysql.install_as_MySQLdb()
@@ -54,8 +54,8 @@ else:
 
 
 app = Flask(__name__)
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
+#cors = CORS(app)
+#app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 # ## Create Database Connection
@@ -78,11 +78,11 @@ engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_hos
 
 # In[5]:
 
-
-@app.route('/')
-@cross_origin()
+#@cross_origin()
 #def helloWorld():
 #  return "Hello, cross-origin-world!"
+
+@app.route('/')
 def index():
     conn = engine.connect()
 
