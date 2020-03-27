@@ -1,0 +1,3935 @@
+[
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations closed until 3/31",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Unfenced parks, trails, and fields are open; All buildings, playgrounds, fenced fields, dog parks, courts, restrooms and parking lots are closed",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Reduced service on weekdays; fare collection suspended; Some WMATA stations are closed",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Trash/Recycling operating as normal; suspending yard waste and bulk material collection ",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections and waiving late fees",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: "Moratorium on penalties and interest; extension until June 30 to file",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: "Moratorium on penalties and interest; extension until June 30 to file",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "Extension to file for business personal property taxes",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Virtual",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "No",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice; by appointment only",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: "Suspended enforcement of local restrictions on off premises alcohol sales and delivery",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "Suspended enforcement of parking restrictions for residential street sweeping and prohibition of 72 hour maximum ",
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Alexandria",
+Population: 159152,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.alexandriava.gov/Coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open; playgrounds, tennis courts, basketball courts closed",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Cancelled",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until 3/29/2020",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "None",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to Public until 3/29",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Charlottesville",
+Population: 49181,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations are closed",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "City beaches and outside parks remain open; all parks buildings are closed",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating as normal",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, virtual",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until at least 3/29",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until at least 3/29",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Accepting online permit an inspection requests",
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Hampton",
+Population: 135753,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://hampton.gov/CivicAlerts.aspx?AID=4417 https://hampton.gov/3711/Coronavirus-Questions-and-Answers"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations closed until 3/31",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks are open; all indoor facilities are closed",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Bus/paratransit service operating as scheduled; except for routes servicing JMU (closed), fare collection suspended",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes w/ social distancing",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closing starting 3/26; by appointment only",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Yes w/ social distancing",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes w/ social distancing",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closing to public starting 3/26; by appointment only",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Applications to be submitted online",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Harrisonburg",
+Population: 53997,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: "The Harrisonburg Disaster Impact Loan Program will provide the interest free loans on a three-year term with no payments for 90 days after the loan funds are disbursed to the business. Businesses must have been established and operational in Harrisonburg for at least the previous six months, and eligible use of funds will include payroll, utilities, inventory and rent. Due to available funds, not all loans will be approved.",
+Source: "https://www.harrisonburgva.gov/novel-coronavirus"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations are closed; book drops remain available",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "All outdoor-only facilities are open",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating as normal",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: "No penalties or interest",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: "No penalties or interest",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: "One hour free in metered spaces",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "Extension until Aug 1 to pay Business and Personal Property Tax",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: "Extension until Aug 1 to pay Real Estate Tax",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, w/ limited occupancy",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Virtual or Cancelled",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Online permitting will occur but is delayed; onsite inspections are severely limited; property maintenance inspections will not occur; no code violoations enforced",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "One hour free in metered spaces",
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Norfolk",
+Population: 245054,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.norfolk.gov/4859/Frequently-Asked-Questions"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All library locations and book drops closed until 3/31",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open; community centers are closed; all permitted events, programs, and uses of park amenities are cancelled",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "GRTC: Normal service; fare collection suspended, including CARE until further notice",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Emergency services only; no disconnections",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Cancelled",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until 3/31/2020",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "None",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to Public until 3/31",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "No time violations enforced; only illegal parking enforced",
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Richmond",
+Population: 226841,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "http://www.richmondgov.com/covid19/"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations are closed; book drops remain available",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Suspending the Smartway Express Route",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal; Transfer stations closed to residents",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, not open to public",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until 3/31",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Employees still report as normal",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until 3/31",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Permits and plan reviews will be handled remotely; inspection and code enforcement will continue w/ social distance ",
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Roanoke",
+Population: 99348,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.roanokeva.gov/2566/Coronavirus-COVID-19"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "All locations and curbside services closed until April 15",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "City parks remain open; Playgrounds, community centers and restrooms are closed",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Normal service, fare collection suspended",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Virtual",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "None",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Applications submitted by mail only; inspections limited to imminent safety complaints first",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "Discontinuation of parking fees in public parking garages and lots",
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "City",
+Locality Name: "Staunton",
+Population: 24971,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.ci.staunton.va.us/departments/city-manager/covid-19-info"
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further ntoice",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Some parks are open; playgrounds, courts, and facilties are clsoed",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Limited service",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes w/limtied access",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Yes w/ some cancellations",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Open with limited access",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Albemarle County",
+Population: 109722,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: ""
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Trails are open; All parks and facilities are closed",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "ART operating reduced service; Some WMATA stations are closed",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Regular collection services operating as normal; bulk trash collection suspended",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: "No penalty or interest on taxes due b/w 3/13 and 4/30",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: "No penalty or interest on taxes due b/w 3/13 and 4/30",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: "Free short-term curbside parking outside businesses",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, closed to public",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Open in limited capacity",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled/Postponed",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Open in very limited capacity",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Virtual inspections only; online permitting only",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "Free short-term curbside parking outside businesses; Residential Parking Permit enforcement has been suspended",
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Arlington County",
+Population: 242152,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://health.arlingtonva.us/covid-19-coronavirus-updates/"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open, all facilities including playgrounds, shelters, courts and centers are closed",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Normal service, fare collection suspended",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Convenience centers operating as normal",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, with limited to public",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice; by appointment only",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Chesterfield County",
+Population: 350760,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.chesterfield.gov/coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice; wifi still accesible from parking lots",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Trails are open; All parks and amenities are closed",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Normal schedule: fare collection suspended; rear door boarding; Some WMATA staions closed",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "No changes to weekly collection schedule; Disposal centers open normal hours",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "One month extension to file vehicle personal property; And to file for Business Personal Property Tax",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: "One month extension of payment of first isntallment",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, closed to public,; online stream available",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closing to public starting 3/27",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public starting 3/27 at 5pm; limited in person services as necessary",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Applications accepted online or via drop-off; improved online accesbility; permits and inspections will still be processed",
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Fairfax County",
+Population: 1143528,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.fairfaxcounty.gov/covid19/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and open spaces are open; Recreation and Parks buildings are closed",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Normal service, fare collection suspended",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Landfills open with reduced hours",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections; limited response for non-emergency needs",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: "No penalties or interest through August",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: "No penalties or interest through August",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "No penalties or interest for 60 days after June 5 for residents and businesses",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: "No penalties or interest for 60 days after June 5 for residents and businesses",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, with limited to public",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Postponed",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Submit online or at dedicated drop stations; no fees are being collected; Remote review of palsn; Inspections will continue with limited inspections in occupied structures",
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Henrico County",
+Population: 328999,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://henrico.us/coronavirus/"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until at least 4/1",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open; playgrounds and athletic courts are closed",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating as normal",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Landfills operating as normal",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "Extened deadline for payment to June 5, 2020",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, with limited to public",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closted to public until further notice; by appointment only",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Applications are accepted at drop-off location; Meetings will be hald remotely; review and inspections will continue",
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Loudoun County",
+Population: 413546,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.loudoun.gov/5321/County-Closures-Operating-Status"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks are open; All recreation centers, fitness centers, and playgrounds are closed",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Reduced service, fare collection suspended on Local and Metro Express service",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Landfills operating as normal",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "Extended the Business Tangible Personal Property tax filing deadline by one month",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes w/ some cancellations",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Applications are accepted via drop-off or mail services; plsn reviews and inspections will continue",
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Prince William County",
+Population: 465498,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://emergency.pwcgov.org/ https://emergency.pwcgov.org/agency-operational-status/"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Locations and book drops closed until 4/23",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks and trails are open; restrooms, pavilions, playgrounds closed",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating on modified schedule",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Landfills have reduced hours; closed Sundays and Mondays",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Some cancellations, closed to public",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled/postponed",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Yes",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Submit online or by mail, drop-off by appointment only",
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "County",
+Locality Name: "Stafford County",
+Population: 151689,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://staffordcountyva.gov/2119/COVID-19-Coronavirus"
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Library of Virginia closed through 4/30",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "All Virginia State Parks are open as of 3/23/20",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: "Businesses can request to defer state sales tax payments due on 3/20/2020 for 30 days. Interest will accrue if extension is granted. ",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Capitol and Pocahontas Building closed until 3/30/20",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: "Liberal telework policies; activated Public Health Emergency Leave; all official travel outside Virginia halted",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Limit Gatherings to 10 people, effective 3/24; Executive Order 53",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Public bodies are not allowed to hold virtual meetings solely by electronic communication (March 20 opinion by Attorney General)",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: "Off-premise privileges allowed for curbside pickup",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "",
+Source: null
+},
+{
+Locality Type: "State",
+Locality Name: "Commonwealth of Virginia",
+Population: 8540000,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: "Small businesses and nonprofit organizations throughout the Commonwealth affected by the COVID-19 public health crisis can now apply for low-interest federal disaster loans of up to $2 million from the SBA to pay fixed debts, payroll, accounts payable, and other expenses.",
+Source: null
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Trails and aprks are open; Community center and aquatic center are closed",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating on a modified schedule",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Operating as normal",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes, closed to public",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Cancelled",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Closed to public until further notice",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "No in person meetings, plans may be submitted online or in person with prior arrangment ",
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Blacksburg",
+Population: 44563,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.blacksburg.gov/residents/public-health-and-safety/modified-town-services-and-operations"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Libraries",
+Locality Decision: "Closed until further notice",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Parks & Recreation",
+Locality Decision: "Parks are open; all playgrounds, sports courts, sports fields, skate parks, pavilions and dog parks are closed",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Public Transportation",
+Locality Decision: "Operating as normal",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Services",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Trash/Recycling Collection",
+Locality Decision: "Suspension of bulk item collection; other operations are normal",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Education",
+Service: "Utilities",
+Locality Decision: "Suspension of disconnections",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Lodging Tax",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Meals Tax",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Parking Meters",
+Locality Decision: "All street meters are free, 2 hour limit still applies",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Property Tax",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Real Estate Tax",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Finance/Budgeting",
+Service: "Change to Sales Tax (State)",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Governance",
+Service: "Council/Board of Supervisors",
+Locality Decision: "Yes",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Governance",
+Service: "Municipal Building Open",
+Locality Decision: "Open",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Governance",
+Service: "Other Boards/Commissions",
+Locality Decision: "Yes w/ some cancellations",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Human Resources ",
+Service: "Tele-working Policy for C-19",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Operations ",
+Service: "In-Person Meetings",
+Locality Decision: "Yes, limited",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Operations ",
+Service: "Office Hours",
+Locality Decision: "Open",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Operations ",
+Service: "Virtual Meetings",
+Locality Decision: "Yes",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Planning & Zoning",
+Service: "Temporary Permits for signage, etc.",
+Locality Decision: "Online processing of permits is now being offered",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Small Business/ED",
+Service: "Off Premise Alcohol Sales",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Small Business/ED",
+Service: "Parking Changes",
+Locality Decision: "All public lots and on-street meters are free; two hour time limits still apply",
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+},
+{
+Locality Type: "Town",
+Locality Name: "Leesburg",
+Population: 54215,
+Service Category: "Small Business/ED",
+Service: "Small Business Loans (related to COVID-19)",
+Locality Decision: null,
+Source: "https://www.leesburgva.gov/residents/coronavirus-information"
+}
+]
