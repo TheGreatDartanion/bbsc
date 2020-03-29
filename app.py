@@ -74,7 +74,6 @@ creds = ServiceAccountCredentials.from_json_keyfile_name('Prototypes-95d74ca67e5
 client = gspread.authorize(creds)
 
 sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
-
 data_json = sheet.get_all_records()
 data_df = pd.DataFrame(data_json)
 
@@ -123,6 +122,10 @@ def get_data():
     # query and load it into your DataFrame
     # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary ORDER BY Municipality_Type,Municipality_Name,Service_Category,Service', conn)
 
+    sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
+    data_json = sheet.get_all_records()
+    data_df = pd.DataFrame(data_json)
+    
     try:
         data_df.rename(columns={
                 'Locality Type': 'Locality Type',
@@ -163,6 +166,10 @@ def get_municipalities():
 
     # conn.close()
 
+    sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
+    data_json = sheet.get_all_records()
+    data_df = pd.DataFrame(data_json)
+
     locality_list = list(data_df['Locality Name'].unique())
 
     # return the list to the client
@@ -180,6 +187,10 @@ def get_service_list():
     # service_list = data_df['Service'].to_list()
 
     # conn.close()
+
+    sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
+    data_json = sheet.get_all_records()
+    data_df = pd.DataFrame(data_json)
 
     service_list = list(data_df['Service'].unique())
 
