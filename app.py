@@ -125,7 +125,8 @@ def get_data():
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
     data_df = pd.DataFrame(data_json)
-    
+    data_df.sort_values(by=['Locality Name','Service Category','Service'], inplace=True)
+
     try:
         data_df.rename(columns={
                 'Locality Type': 'Locality Type',
@@ -171,7 +172,7 @@ def get_municipalities():
     data_df = pd.DataFrame(data_json)
 
     locality_list = list(data_df['Locality Name'].unique())
-
+    locality_list.sort()
     # return the list to the client
     return(jsonify(locality_list))
 
@@ -193,6 +194,7 @@ def get_service_list():
     data_df = pd.DataFrame(data_json)
 
     service_list = list(data_df['Service'].unique())
+    service_list.sort()
 
     # return the list to the client
     return(jsonify(service_list))
