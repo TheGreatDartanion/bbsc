@@ -13,6 +13,8 @@ import pymysql
 import pandas as pd
 import flask
 import os
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 from flask import Flask, render_template, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -67,6 +69,15 @@ app = Flask(__name__)
 
 engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_host}:{remote_db_port}/{remote_db_name}')
 
+scope = ['https://www.googleapis.com/auth/drive']
+creds = ServiceAccountCredentials.from_json_keyfile_name('Prototypes-95d74ca67e5d.json',scope)
+client = gspread.authorize(creds)
+
+sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
+
+data_json = sheet.get_all_records()
+data_df = pd.DataFrame(data_json)
+
 
 # ## Create a Default Route
 #
@@ -84,13 +95,17 @@ engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_hos
 
 @app.route('/')
 def index():
-    conn = engine.connect()
+    # conn = engine.connect()
 
-    data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
+    # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
 
-    data_json = data_df.to_json(orient='records')
+    # data_json = data_df.to_json(orient='records')
 
-    return render_template('index.html')
+    last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
+    last_update_message = last_update.acell('A2').value
+    last_update_message
+
+    return render_template('index.html', last_update_message = last_update_message)
 
 
 # ## Create a Route for the data
@@ -103,17 +118,17 @@ def index():
 @app.route('/api/data/municipality-decision-report')
 def get_data():
     # establish a connection to your database
-    conn = engine.connect()
+    # conn = engine.connect()
 
     # query and load it into your DataFrame
-    data_df = pd.read_sql('SELECT * FROM VA_Report_Summary ORDER BY Municipality_Type,Municipality_Name,Service_Category,Service', conn)
+    # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary ORDER BY Municipality_Type,Municipality_Name,Service_Category,Service', conn)
 
     try:
         data_df.rename(columns={
-                'Municipality_Type': 'Locality Type',
-                'Municipality_Name': 'Locality Name',
-                'Service_Category':'Service Category',
-                'Municipality_Decision':'Locality Decision',
+                'Locality Type': 'Locality Type',
+                'Locality Name': 'Locality Name',
+                'Service Category':'Service Category',
+                'Locality Decision':'Locality Decision',
         }, inplace=True)
 
         data_df['Population'] = data_df['Population'].apply(lambda pop : "{:,}".format(pop))
@@ -127,7 +142,7 @@ def get_data():
     # convert your DataFrame into `json`
     data_json = data_df.to_json(orient='records')
 
-    conn.close()
+    # conn.close()
 
     # return the json to the client
     return(data_json)
@@ -139,30 +154,34 @@ def get_data():
 @app.route('/api/data/municipalities')
 def get_municipalities():
     # establish a connection to your database
-    conn = engine.connect()
+    # conn = engine.connect()
 
     # query and load it into your DataFrame
-    data_df = pd.read_sql('SELECT DISTINCT Municipality_Name FROM Municipality ORDER BY Municipality_Name', conn)
+    # data_df = pd.read_sql('SELECT DISTINCT Municipality_Name FROM Municipality ORDER BY Municipality_Name', conn)
 
-    municipalities_list = data_df['Municipality_Name'].to_list()
+    # municipalities_list = data_df['Municipality_Name'].to_list()
 
-    conn.close()
+    # conn.close()
+
+    locality_list = list(data_df['Locality Name'].unique())
 
     # return the list to the client
-    return(jsonify(municipalities_list))
+    return(jsonify(locality_list))
 
 
 @app.route('/api/data/service_list')
 def get_service_list():
     # establish a connection to your database
-    conn = engine.connect()
+    # conn = engine.connect()
 
     # query and load it into your DataFrame
-    data_df = pd.read_sql('SELECT DISTINCT Service from Service ORDER BY Service', conn)
+    # data_df = pd.read_sql('SELECT DISTINCT Service from Service ORDER BY Service', conn)
 
-    service_list = data_df['Service'].to_list()
+    # service_list = data_df['Service'].to_list()
 
-    conn.close()
+    # conn.close()
+
+    service_list = list(data_df['Service'].unique())
 
     # return the list to the client
     return(jsonify(service_list))
