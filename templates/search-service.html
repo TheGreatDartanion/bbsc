@@ -60,8 +60,8 @@
     </div>
 
     <div class="jumbotron" style="background-color: white">
-    <h3>Locality Search</h3>
-    <h4><span id="select_msg">To start, select a locality: </span><select id="municipality_list" onchange="filterDataFunction()"></select></h4>
+    <h3>Search by Service</h3>
+    <h4><span id="select_msg">To start, select a government service: </span><select id="service_list" onchange="filterDataFunctionService()"></select></h4>
 
 <!--
     <strong>Select a service:</strong>
@@ -69,17 +69,17 @@
     <br/><br/>
 -->
     <em>{{ last_update_message }}<br>
-    You may also <a target='_blank' href='/'>click here to <b>search by government service</b></a>.</em>
+    You may also <a target='_blank' href='/locality-search'>click here to <b>search by locality</b></a>.</em>
 
     <hr style="border: 8px solid lightgray;border-radius: 5px;"></hr>
 
-    <h2><div id='locality_name'></div></h2>
-    <h4><div id='locality_type_and_population'></div></h4>
-    <h4><div id='source'></div></h4><br><br>
+    <h2><div id='service'></div></h2>
+    <h4><div id='service_category'></div></h4>
+    <br><br>
 
     <div class="table-responsive" id="dataTable">
 
     </div>
-    <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality.js") }}' ></script>
+    <script type='text/javascript' src='{{ url_for("static", filename="js/search-service.js") }}' ></script>
   </body>
 </html>

@@ -76,7 +76,7 @@ client = gspread.authorize(creds)
 sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
 data_json = sheet.get_all_records()
 data_df = pd.DataFrame(data_json)
-
+# data_df.replace(to_replace ="NULL", value ="") 
 
 # ## Create a Default Route
 #
@@ -104,7 +104,35 @@ def index():
     last_update_message = last_update.acell('A2').value
     last_update_message
 
+    return render_template('search-service.html', last_update_message = last_update_message)
+
+@app.route('/locality-search')
+def locality_service():
+    # conn = engine.connect()
+
+    # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
+
+    # data_json = data_df.to_json(orient='records')
+
+    last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
+    last_update_message = last_update.acell('A2').value
+    last_update_message
+
     return render_template('search-locality.html', last_update_message = last_update_message)
+
+@app.route('/service-search')
+def service():
+    # conn = engine.connect()
+
+    # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
+
+    # data_json = data_df.to_json(orient='records')
+
+    last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
+    last_update_message = last_update.acell('A2').value
+    last_update_message
+
+    return render_template('search-service.html', last_update_message = last_update_message)
 
 
 @app.route('/table')
@@ -141,6 +169,7 @@ def get_data():
     data_json = sheet.get_all_records()
     data_df = pd.DataFrame(data_json)
     data_df.sort_values(by=['Locality Name','Service Category','Service'], inplace=True)
+    # data_df.replace(to_replace ="NULL", value ="")
 
     try:
         data_df.rename(columns={
@@ -185,6 +214,7 @@ def get_municipalities():
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
     data_df = pd.DataFrame(data_json)
+    # data_df.replace(to_replace ="NULL", value ="")
 
     locality_list = list(data_df['Locality Name'].unique())
     locality_list.sort()
@@ -207,6 +237,7 @@ def get_service_list():
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
     data_df = pd.DataFrame(data_json)
+    # data_df.replace(to_replace ="NULL", value ="")
 
     service_list = list(data_df['Service'].unique())
     service_list.sort()
