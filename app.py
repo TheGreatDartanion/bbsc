@@ -42,8 +42,9 @@ if is_heroku == True:
     remote_db_user = os.environ.get('remote_db_user')
     remote_db_pwd = os.environ.get('remote_db_pwd')
     remote_db_name = os.environ.get('remote_db_name')
+    gsheets_config = os.environ.get('gsheets_config')
 else:
-    from config import remote_db_host, remote_db_port, remote_db_user, remote_db_pwd, remote_db_name
+    from config import remote_db_host, remote_db_port, remote_db_user, remote_db_pwd, remote_db_name, gsheets_config
 
 
 # ## Instantiate Flask
@@ -70,13 +71,13 @@ app = Flask(__name__)
 engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_host}:{remote_db_port}/{remote_db_name}')
 
 scope = ['https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('Prototypes-95d74ca67e5d.json',scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
 client = gspread.authorize(creds)
 
 sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
 data_json = sheet.get_all_records()
 data_df = pd.DataFrame(data_json)
-# data_df.replace(to_replace ="NULL", value ="") 
+# data_df.replace(to_replace ="NULL", value ="")
 
 # ## Create a Default Route
 #
