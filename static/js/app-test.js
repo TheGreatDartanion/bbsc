@@ -11,9 +11,8 @@ function generateTable(data) {
   source = data[0][`Source`];
 
   document.getElementById('locality_name').innerHTML = locality_name;
-  document.getElementById('locality_type').innerHTML = locality_type;
-  document.getElementById('population').innerHTML = population;
-  document.getElementById('source').innerHTML = source;
+  document.getElementById('locality_type_and_population').innerHTML = `${locality_type} with an estimated population of ${population}` ;
+  document.getElementById('source').innerHTML = `Source: ${source}`;
 
   console.log(locality_type);
 
@@ -89,7 +88,12 @@ function filterDataFunction() {
 
   filteredData = globalData.filter(filterData);
 
-  document.getElementById("generatedTable").remove();
+  table = document.getElementById("generatedTable");
+  if(table != null){
+    table.remove();
+  }
+
+
   table = initTable();
 
   if(opt != '(All)')
@@ -103,6 +107,7 @@ function filterDataFunction() {
 
   filtered = true;
 
+  document.getElementById('select_msg').innerHTML = 'Select a locality: ';
 }
 
 
@@ -155,7 +160,7 @@ function initTable()
   var table = document.createElement("table");
   table.classList.add('table');
   table.classList.add('table-striped');
-  table.classList.add('table-dark');
+  //table.classList.add('table-dark');
   table.classList.add('table-bordered');
   table.classList.add('table-hover');
   table.classList.add('table-responsive');
@@ -170,10 +175,12 @@ d3.json('/api/data/municipalities').then(function(data){
   var options = data;
 
   // ALl Option
+  /*
   var el = document.createElement("option");
   el.textContent = '(All)';
   el.value = '(All)';
   select.appendChild(el);
+  */
 
   options.forEach(function(i){
     var opt = i;
@@ -182,6 +189,8 @@ d3.json('/api/data/municipalities').then(function(data){
     el.value = opt;
     select.appendChild(el);
   });
+
+  document.getElementById("municipality_list").value='';
 
 });
 
@@ -211,5 +220,5 @@ table = initTable();
 
 d3.json('/api/data/municipality-decision-report').then(function(data){
   globalData = data;
-  generateTable(data);
+  //generateTable(data);
 });

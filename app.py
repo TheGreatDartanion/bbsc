@@ -104,11 +104,11 @@ def index():
     last_update_message = last_update.acell('A2').value
     last_update_message
 
-    return render_template('index.html', last_update_message = last_update_message)
+    return render_template('search-locality.html', last_update_message = last_update_message)
 
 
-@app.route('/test')
-def test():
+@app.route('/table')
+def table():
     # conn = engine.connect()
 
     # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
@@ -119,7 +119,7 @@ def test():
     last_update_message = last_update.acell('A2').value
     last_update_message
 
-    return render_template('test.html', last_update_message = last_update_message)
+    return render_template('search-full-table.html', last_update_message = last_update_message)
 
 
 # ## Create a Route for the data
