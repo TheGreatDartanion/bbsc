@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <title>Virginia Localities and the COVID-19 Response</title>
+    <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/style.css") }}'>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+<!--
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js'></script>
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map'></script>
+-->
+    <script type='text/javascript' src='{{ url_for('static', filename='js/d3.js') }}'></script>
+    <script type='text/javascript' src='{{ url_for('static', filename='js/d3.min.js') }}'></script>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/jumbotron.css") }}'>
+
+  </head>
+
+  <body>
+    <div class="jumbotron" style="background-color:#333333; color: #FFFFFF;">
+      <img src="{{ url_for("static", filename="images/berkeley-group.png") }}" width="220" height="91">
+
+      <img style="float: right; text-align: right;" src="{{ url_for("static", filename="images/bbsc.png") }}" width="333" height="91">
+
+
+      <h1 class="display-3">Virginia Localities</h1>
+      <h2 class="display-4">COVID-19 Response</h2>
+      <p class="lead">
+
+    </div>
+
+    <div style="background-color:#eeeeee" >
+
+    <h3 class="display-3"><b>Virginia Localities and the COVID-19 Response</b></h3>
+    <div style="width:80%;">
+
+    Virginia localities are responding to COVID-19 for citizens, businesses, and employees. <br/><br/>
+
+    <a href="https://www.bgllc.net/" target="_blank">The Berkley Group</a> and <a href="http://birchbarkstrategies.com/" target="_blank">BIRCHbark Strategic Consulting</a> have teamed up to bring you a resource to better understand what policy measures are being taken at the local level.<br/><br/>
+
+    When working for local government, common question our local managers would ask when thinking about something new was <strong>"what are other localities doing?"</strong><br/><br/>
+
+    This page provides available local government data in one spot. Local government actions are evolving and we will update frequently.
+    </div>
+
+    </div>
+    <br/>
+    <h4><b>Select a locality:</b></h4>
+
+    <strong>Select a locality:</strong>
+    <select id="municipality_list" onchange="filterDataFunction()"></select>
+
+    <br/><br/>
+<!--
+    <strong>Select a service:</strong>
+    <select id="service_list" onchange="filterDataFunctionService()"></select>
+    <br/><br/>
+-->
+    <em>{{ last_update_message }}</em>
+
+    <h2><div id='locality_name'></div></h2>
+    <h3><div id='locality_type'></div></h3>
+    <h4><div id='population'></div></h4>
+    <h4><div id='source'></div></h4>
+
+    <div class="table-responsive" id="dataTable">
+
+    </div>
+
+    <script type='text/javascript' src='{{ url_for("static", filename="js/app-test.js") }}' ></script>
+
+
+  </body>
+</html>

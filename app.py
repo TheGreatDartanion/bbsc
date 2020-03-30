@@ -107,6 +107,21 @@ def index():
     return render_template('index.html', last_update_message = last_update_message)
 
 
+@app.route('/test')
+def test():
+    # conn = engine.connect()
+
+    # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
+
+    # data_json = data_df.to_json(orient='records')
+
+    last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
+    last_update_message = last_update.acell('A2').value
+    last_update_message
+
+    return render_template('test.html', last_update_message = last_update_message)
+
+
 # ## Create a Route for the data
 #
 # This one is named `api/data/ksa`. The idea here is to indicate that data will be served up through an API. Technically, routes can be named whatever you'd like.
