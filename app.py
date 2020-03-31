@@ -260,7 +260,7 @@ def get_service_list():
     scope = ['https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
     client = gspread.authorize(creds)
-
+    
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
     data_df = pd.DataFrame(data_json)

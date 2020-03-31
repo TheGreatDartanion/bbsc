@@ -71,19 +71,25 @@
     <em>{{ last_update_message }}<br>
     You may also <a target='_blank' href='/'>click here to <b>search by government service</b></a>.</em>
 
+    <p><p>
+    To download the full data set, you may click the <b>Download to Excel</b> button below. </p>
+    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="fnExcelReport();">Download to Excel</button></span>
+
     <hr style="border: 8px solid lightgray;border-radius: 5px;"></hr>
 
     <h2><div id='locality_name'></div></h2>
     <h4><div id='locality_type_and_population'></div></h4>
     <h4><div id='source'></div></h4><br><br>
-<!--
+
     <iframe id="reportWindow" style="display:none"></iframe>
-    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="fnExcelReport();">Download to Excel</button></span>
--->
+
     <div class="table-responsive" id="dataTable">
 
     </div>
 
-    <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality.js") }}' ></script>
+    <div style="display:none" class="table-responsive" id="dataExportTable"></div>
+
+
+    <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality2.js") }}' ></script>
   </body>
 </html>
