@@ -63,6 +63,11 @@
     <h3>Search by Service</h3>
     <h4><span id="select_msg">To start, select a government service: </span><select id="service_list" onchange="filterDataFunctionService()"></select></h4>
 
+    <p><p>
+    To download the full data set, you may click the <b>Download to Excel</b> button below. </p>
+    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="exportTableToCSV('covid-response-va.csv')">Download to Excel</button></span><p>
+
+
 <!--
     <strong>Select a service:</strong>
     <select id="service_list" onchange="filterDataFunctionService()"></select>
@@ -80,6 +85,8 @@
     <div class="table-responsive" id="dataTable">
 
     </div>
-    <script type='text/javascript' src='{{ url_for("static", filename="js/search-service.js") }}' ></script>
+    <div style="display:none" class="table-responsive" id="dataExportTable"></div>
+
+    <script type='text/javascript' src='{{ url_for("static", filename="js/search-service3.js") }}' ></script>
   </body>
 </html>

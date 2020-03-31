@@ -1,5 +1,4 @@
 var globalData;
-var exportTable;
 var filteredData;
 var filtered = false;
 
@@ -10,24 +9,27 @@ function generateTable(data) {
   locality_name = data[0][`Locality Name`];
   population = data[0][`Population`];
   source = data[0][`Source`];
+  service_category = data[0][`Service Category`];
+  service = data[0][`Service`];
 
-  document.getElementById('locality_name').innerHTML = locality_name;
-  document.getElementById('locality_type_and_population').innerHTML = `${locality_type} with an estimated population of ${population}` ;
-  document.getElementById('source').innerHTML = `Source: ${source}`;
-
-  console.log(locality_type);
+  document.getElementById('service').innerHTML = service;
+  document.getElementById('service_category').innerHTML = `${service_category}` ;
 
   /*
   service_category = data.map(function(d){
     console.log(d[`Service Category`]);
   });
+
   service = data.map(function(d){
     console.log(d[`Service`]);
   });
+
   locality_decision = data.map(function(d){
     console.log(d[`Locality Decision`]);
   });
+
   data.forEach(function(d){
+
   });
   */
 
@@ -35,7 +37,7 @@ function generateTable(data) {
   for (var i = 0; i < data.length; i++) {
       for (var key in data[i]) {
           if (col.indexOf(key) === -1) {
-              if(key == 'Service Category' || key == 'Service' || key == 'Locality Decision')
+              if(key == 'Locality Name' || key == 'Locality Type' || key == 'Population' || key == 'Locality Decision' || key == 'Source')
               col.push(key);
           }
       }
@@ -109,7 +111,7 @@ function filterDataFunction() {
 
 function filterDataFunctionService() {
 
-  document.getElementById("municipality_list").value = '(All)';
+  //document.getElementById("service_list").value = '(All)';
 
   opt = document.getElementById("service_list").value;
 
@@ -134,7 +136,12 @@ function filterDataFunctionService() {
   }
 */
 
-  document.getElementById("generatedTable").remove();
+  table = document.getElementById("generatedTable");
+
+  if(table != null){
+    table.remove();
+  }
+
   table = initTable();
 
 
@@ -166,8 +173,8 @@ function initTable()
 }
 
 
-d3.json('/api/data/municipalities').then(function(data){
-  var select = document.getElementById("municipality_list");
+d3.json('/api/data/service_list').then(function(data){
+  var select = document.getElementById("service_list");
   var options = data;
 
   // ALl Option
@@ -186,7 +193,7 @@ d3.json('/api/data/municipalities').then(function(data){
     select.appendChild(el);
   });
 
-  document.getElementById("municipality_list").value='';
+  document.getElementById("service_list").value='';
 
 });
 
@@ -194,11 +201,13 @@ d3.json('/api/data/municipalities').then(function(data){
 d3.json('/api/data/service_list').then(function(data){
   var select = document.getElementById("service_list");
   var options = data;
+
   // ALl Option
   var el = document.createElement("option");
   el.textContent = '(All)';
   el.value = '(All)';
   select.appendChild(el);
+
   options.forEach(function(i){
     var opt = i;
     var el = document.createElement("option");
@@ -206,6 +215,7 @@ d3.json('/api/data/service_list').then(function(data){
     el.value = opt;
     select.appendChild(el);
   });
+
 });
 */
 
@@ -252,88 +262,6 @@ function initExportTable()
 
   return exportTable;
 }
-
-/*
-function fnExcelReport()
-{
-
-    console.log("1. fnExcelReport");
-
-    var tab_text="<table border='2px'><tr bgcolor='#87AFC6'>";
-    var textRange;
-    var j=0;
-
-    tab = generateFullExport(globalData);
-    //tab = document.getElementById('generatedTable'); // id of table
-
-    for(j = 0 ; j < tab.rows.length ; j++)
-    {
-        tab_text=tab_text+tab.rows[j].innerHTML+"</tr>";
-        //tab_text=tab_text+"</tr>";
-    }
-
-    tab_text = tab_text+"</table>";
-    tab_text = tab_text.replace(/<A[^>]*>|<\/A>/g, "");//remove to keep links in your table
-    tab_text = tab_text.replace(/<img[^>]*>/gi,""); // remove to keep images in the table
-    tab_text = tab_text.replace(/<input[^>]*>|<\/input>/gi, ""); // input params
-
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
-
-    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer
-    {
-        reportWindow.document.open("txt/html","replace");
-        reportWindow.document.write(tab_text);
-        reportWindow.document.close();
-        reportWindow.focus();
-        sa=reportWindow.document.execCommand("SaveAs",true,"COVID-VA-Export.xlsx");
-    }
-    else                 //other browser not tested on IE 11
-        sa = window.open('data:application/vnd.ms-excel;base64,' + encodeURIComponent(tab_text));
-
-    return (sa);
-}
-*/
-
-
-function exportTableToExcel(tableID, filename = 'covid-response-va'){
-    var downloadLink;
-    var dataType = 'application/vnd.ms-excel';
-    //var tableSelect = document.getElementById(tableID);
-    var tableSelect = document.getElementById('exportTable');
-
-    var tableSelect = generateFullExport(globalData);
-
-
-    var tableHTML = tableSelect.outerHTML.replace(/ /g, '%20');
-
-
-    // Specify file name
-    filename = filename?filename+'.xlsx':'excel_data.xlsx';
-
-    // Create download link element
-    downloadLink = document.createElement("a");
-
-    document.body.appendChild(downloadLink);
-
-    if(navigator.msSaveOrOpenBlob){
-        var blob = new Blob(['\ufeff', tableHTML], {
-            type: dataType
-        });
-        navigator.msSaveOrOpenBlob( blob, filename);
-    }else{
-        // Create a link to the file
-        downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
-
-        // Setting the file name
-        downloadLink.download = filename;
-
-        //triggering the function
-        downloadLink.click();
-    }
-}
-
-
 
 
 
@@ -382,4 +310,53 @@ function generateFullExport(data) {
   }
 
   return exportTable;
+}
+
+function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = filename;
+
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+
+    // Hide download link
+    downloadLink.style.display = "none";
+
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+
+    // Click download link
+    downloadLink.click();
+}
+
+
+function exportTableToCSV(filename) {
+    var csv = [];
+
+    tbl = generateFullExport(globalData);
+    //var tbl = document.getElementById("exportTable");
+    console.log(tbl);
+
+    var rows = tbl.querySelectorAll("table tr");
+
+    for (var i = 0; i < rows.length; i++) {
+        var row = [], cols = rows[i].querySelectorAll("td, th");
+
+        for (var j = 0; j < cols.length; j++)
+            row.push("\"" + cols[j].innerText + "\"");
+
+        csv.push(row.join(","));
+    }
+
+    // Download CSV file
+    downloadCSV(csv.join("\n"), filename);
 }
