@@ -102,6 +102,11 @@ def index():
 
     # data_json = data_df.to_json(orient='records')
 
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
+
+
     last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
     last_update_message = last_update.acell('A2').value
     last_update_message
@@ -115,6 +120,10 @@ def locality_service():
     # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
 
     # data_json = data_df.to_json(orient='records')
+
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
 
     last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
     last_update_message = last_update.acell('A2').value
@@ -130,6 +139,10 @@ def service():
 
     # data_json = data_df.to_json(orient='records')
 
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
+
     last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
     last_update_message = last_update.acell('A2').value
     last_update_message
@@ -144,6 +157,9 @@ def table():
     # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary', conn)
 
     # data_json = data_df.to_json(orient='records')
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
 
     last_update = client.open('COVID-VA-Locality-Sheet').worksheet("Last Update Message")
     last_update_message = last_update.acell('A2').value
@@ -166,6 +182,9 @@ def get_data():
 
     # query and load it into your DataFrame
     # data_df = pd.read_sql('SELECT * FROM VA_Report_Summary ORDER BY Municipality_Type,Municipality_Name,Service_Category,Service', conn)
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
 
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
@@ -212,6 +231,9 @@ def get_municipalities():
     # municipalities_list = data_df['Municipality_Name'].to_list()
 
     # conn.close()
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
 
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
@@ -235,6 +257,9 @@ def get_service_list():
     # service_list = data_df['Service'].to_list()
 
     # conn.close()
+    scope = ['https://www.googleapis.com/auth/drive']
+    creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
+    client = gspread.authorize(creds)
 
     sheet = client.open('COVID-VA-Locality-Sheet').worksheet("Locality Decisions")
     data_json = sheet.get_all_records()
