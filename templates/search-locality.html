@@ -73,7 +73,7 @@
 
     <p><p>
     To download the full data set, you may click the <b>Download to Excel</b> button below. </p>
-    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="exportTableToExcel(this);">Download to Excel</button></span>
+    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="exportTableToCSV('covid-response-va.csv')">Download to Excel</button></span>
 
     <hr style="border: 8px solid lightgray;border-radius: 5px;"></hr>
 
@@ -90,6 +90,6 @@
     <div style="display:none" class="table-responsive" id="dataExportTable"></div>
 
 
-    <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality2.js") }}' ></script>
+    <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality3.js") }}' ></script>
   </body>
 </html>
