@@ -76,10 +76,14 @@
     <h2><div id='locality_name'></div></h2>
     <h4><div id='locality_type_and_population'></div></h4>
     <h4><div id='source'></div></h4><br><br>
-
+<!--
+    <iframe id="reportWindow" style="display:none"></iframe>
+    <span id="exportSpan"><button id="btnExport" type="button" class="btn btn-primary" onclick="fnExcelReport();">Download to Excel</button></span>
+-->
     <div class="table-responsive" id="dataTable">
 
     </div>
+
     <script type='text/javascript' src='{{ url_for("static", filename="js/search-locality.js") }}' ></script>
   </body>
 </html>

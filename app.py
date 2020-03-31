@@ -8,8 +8,10 @@
 # In[1]:
 
 
-from sqlalchemy import create_engine
-import pymysql
+#from sqlalchemy import create_engine
+#from flask_sqlalchemy import SQLAlchemy
+
+#import pymysql
 import pandas as pd
 import flask
 import os
@@ -17,11 +19,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 from flask import Flask, render_template, jsonify
-from flask_sqlalchemy import SQLAlchemy
 #from flask_cors import CORS, cross_origin
 
 
-pymysql.install_as_MySQLdb()
+#pymysql.install_as_MySQLdb()
 
 
 # ## Import config variables
@@ -68,7 +69,7 @@ app = Flask(__name__)
 # In[4]:
 
 
-engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_host}:{remote_db_port}/{remote_db_name}')
+#engine = create_engine(f'mysql://{remote_db_user}:{remote_db_pwd}@{remote_db_host}:{remote_db_port}/{remote_db_name}')
 
 scope = ['https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('bbsc.json',scope)
