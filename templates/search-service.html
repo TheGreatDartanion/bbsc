@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
     <title>Virginia Localities and the COVID-19 Response</title>
     <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/style.css") }}'>
@@ -16,15 +17,15 @@
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js'></script>
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.min.js.map'></script>
 -->
-    <script type='text/javascript' src='{{ url_for('static', filename='js/d3.js') }}'></script>
-    <script type='text/javascript' src='{{ url_for('static', filename='js/d3.min.js') }}'></script>
+    <script charset="utf-8" type='text/javascript' src='{{ url_for('static', filename='js/d3.js') }}'></script>
+    <script charset="utf-8" type='text/javascript' src='{{ url_for('static', filename='js/d3.min.js') }}'></script>
 
     <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-    <script type='text/javascript' src="{{ url_for('static', filename='js/jquery-3.4.1.js') }}"></script>
-    <script type='text/javascript' src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
-    <script type='text/javascript' src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script charset="utf-8" type='text/javascript' src="{{ url_for('static', filename='js/jquery-3.4.1.js') }}"></script>
+    <script charset="utf-8" type='text/javascript' src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+    <script charset="utf-8" type='text/javascript' src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
 
     <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="css/jumbotron.css") }}'>
 
@@ -52,7 +53,7 @@
 
     <a href="https://www.bgllc.net/" target="_blank"><b>The Berkley Group</b></a> and <a href="http://birchbarkstrategies.com/" target="_blank"><b>BIRCHbark Strategic Consulting</b></a> have teamed up to bring you a resource to better understand what policy measures are being taken at the local level.<br/><br/>
 
-    When working for local government, common question our local managers would ask when thinking about something new was <strong>“what are other localities doing?”</strong><br/><br/>
+    When working for local government, a common question our managers would ask when exploring new ideas was <strong>“what are other localities doing?”</strong><br/><br/>
 
     This page provides available local government data in one spot. Local government actions are evolving and we will update frequently.</big></big>
   </span>
@@ -76,7 +77,7 @@
     <em>{{ last_update_message }}<br>
     You may also <a target='_blank' href='/locality-search'>click here to <b>search by locality</b></a>.</em>
 
-    <hr style="border: 8px solid lightgray;border-radius: 5px;"></hr>
+    <hr style="border: 8px solid lightgray;border-radius: 5px;"/>
 
     <h2><div id='service'></div></h2>
     <h4><div id='service_category'></div></h4>
@@ -87,7 +88,7 @@
     </div>
   </div>
 
-</div>
+
   <div class="jumbotron" style="text-align: justify;background-color:#eeeeee" >
 
   <h3>Get Involved!</h3>
